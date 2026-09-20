@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Menu | Café 1 Bistro</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+</head>
+
+<body>
+
+
+<header class="navbar">
+
+    <a href="index.html" class="logo">
+        <span>CAFÉ</span>
+        <strong>1</strong>
+        <span>BISTRO</span>
+    </a>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html" class="active">Menu</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#visit">Visit</a>
+    </nav>
+
+    <a href="#menu" class="nav-button">Our Menu</a>
+
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
+</header>
+
+
+<main>
+
+<section class="menu-header">
+
+    <span class="eyebrow">Café 1 Bistro</span>
+
+    <h1>
+        The <em>menu.</em>
+    </h1>
+
+    <p>
+        Breakfast, brunch, lunch, sweet treats and drinks —
+        there's plenty to choose from.
+    </p>
+
+</section>
+
+
+<section class="menu-page" id="menu">
+
+
+    <!-- BREAKFAST -->
+
+    <div class="menu-category">
+
+        <div class="category-title">
+            <span>01</span>
+            <h2>All-Day Breakfast</h2>
+        </div>
+
+
+        <div class="menu-items">
+
+            <div class="menu-item">
+                <div>
+                    <h3>King's Breakfast</h3>
+                    <p>
+                        2 eggs, bacon, sausage, hash brown,
+                        tomato, beans &amp; toast
+                    </p>
+                </div>
+                <strong>£16.20</strong>
+            </div>
+
+
+            <div class="menu-item">
+                <div>
+                    <h3>Café 1 Special</h3>
+                    <p>
+                        2 eggs, avocado, halloumi, hash brown,
+                        tomatoes, beans &amp; mushrooms
+                    </p>
+                </div>
+                <strong>£17.45</strong>
+            </div>
+
+
+            <div class="menu-item">
+                <div>
+                    <h3>Smashed Avocado</h3>
+                    <p>
+                        2 poached eggs on sourdough toast
+                    </p>
+                </div>
+                <strong>£12.45</strong>
+            </div>
+
+
+            <div class="menu-item">
+                <div>
+                    <h3>Scrambled Eggs</h3>
+                    <p>
+                        On sourdough toast with avocado
+                        &amp; smoked salmon
+                    </p>
+                </div>
+                <strong>£16.20</strong>
+            </div>
+
+
+            <div class="menu-item">
+                <div>
+                    <h3>Vegan Breakfast</h3>
+                    <p>
+                        Vegan sausage, avocado, falafel,
+                        tomato or beans, spinach &amp; toast
+                    </p>
+                </div>
+                <strong>£16.20</strong>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- PANCAKES -->
+
+    <div class="menu-category">
+
+        <div class="category-title">
+            <span>02</span>
+            <h2>Pancakes &amp; French Toast</h2>
+        </div>
+
+
+        <div class="menu-items">
+
+            <div class="menu-item">
+                <div>
+                    <h3>New York Pancake</h3>
+                    <p>Bacon, egg, sausage, maple syrup &amp; banana</p>
+                </div>
+                <strong>£13.75</strong>
+            </div>
+
+
+            <div class="menu-item">
+                <div>
+                    <h3>Oreo Pancakes</h3>
+                    <p>Served with banana</p>
+                </div>
+                <strong>£14.95</strong>
+            </div>
+
+
+            <div class="menu-item">
+                <div>
+                    <h3>Biscoff Pancakes</h3>
+                    <p>Served with banana</p>
+                </div>
+                <strong>£14.95</strong>
+            </div>
+
+
+            <div class="menu-item">
+                <div>
+                    <h3>Blueberry Pancakes</h3>
+                    <p>Banana, maple syrup &amp; side fruit</p>
+                </div>
+                <strong>£14.95</strong>
+            </div>
+
+
+            <div class="menu-item">
+                <div>
+                    <h3>Plain Pancake</h3>
+                    <p>Served with maple syrup</p>
+                </div>
+                <strong>£10.65</strong>
+            </div>
+
+
+            <div class="menu-item">
+                <div>
+                    <h3>French Toast</h3>
+                    <p>With strawberry &amp; blueberry</p>
+                </div>
+                <strong>£13.75</strong>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- WRAPS -->
+
+    <div class="menu-category">
+
+        <div class="category-title">
+            <span>03</span>
+            <h2>Breakfast &amp; Lunch Wraps</h2>
+        </div>
+
+
+        <div class="menu-items">
+
+            <div class="menu-item">
+                <div>
+                    <h3>Breakfast Wrap</h3>
+                    <p>Egg, bacon, sausage &amp; hash brown</p>
+                </div>
+                <strong>£11.60</strong>
+            </div>
+
+
+            <div class="menu-item">
+                <div>
+                    <h3>Chicken Wrap</h3>
+                    <p>Chicken &amp; salad</p>
+                </div>
+                <strong>£12.45</strong>
+            </div>
+
+
+            <div class="menu-item">
+                <div>
+                    <h3>Halloumi Wrap</h3>
+                    <p>Halloumi, avocado &amp; salad</p>
+                </div>
+                <strong>£14.90</strong>
+            </div>
+
+
+            <div class="menu-item">
+                <div>
+                    <h3>Falafel &amp; Hummus</h3>
+                    <p>Falafel, hummus &amp; salad</p>
+                </div>
+                <strong>£11.20</strong>
+            </div>
+
+
+            <div class="menu-item">
+                <div>
+                    <h3>Tuna Wrap</h3>
+                    <p>With salad</p>
+                </div>
+                <strong>£11.20</strong>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- GRILLS -->
+
+    <div class="menu-category">
+
+        <div class="category-title">
+            <span>04</span>
+            <h2>Grilled Dishes</h2>
+        </div>
+
+
+        <div class="menu-items">
+
+            <div class="menu-item">
+                <div>
+                    <h3>Brunch</h3>
+                    <p>
+                        Burger patty, bacon, egg,
+                        sausage &amp; fries
+                    </p>
+                </div>
+                <strong>£15.00</strong>
+            </div>
+
+
+            <div class="menu-item">
+                <div>
+                    <h3>Chicken Shish</h3>
+                    <p>With salad &amp; chips or rice</p>
+                </div>
+                <strong>£16.20</strong>
+            </div>
+
+
+            <div class="menu-item">
+                <div>
+                    <h3>Lamb Shish</h3>
+                    <p>With rice &amp; salad</p>
+                </div>
+                <strong>£21.20</strong>
+            </div>
+
+
+            <div class="menu-item">
+                <div>
+                    <h3>Mixed Grill</h3>
+                    <p>
+                        Burger patty, bacon, eggs, sausages,
+                        tomato, mushrooms &amp; fries
+                    </p>
+                </div>
+                <strong>£18.70</strong>
+            </div>
+
+
+            <div class="menu-item">
+                <div>
+                    <h3>Gammon Delight</h3>
+                    <p>
+                        Gammon, fried egg, pineapple,
+                        mushrooms, tomato, peas &amp; fries
+                    </p>
+                </div>
+                <strong>£16.20</strong>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- BURGERS -->
+
+    <div class="menu-category">
+
+        <div class="category-title">
+            <span>05</span>
+            <h2>Burgers</h2>
+        </div>
+
+
+        <div class="menu-items">
+
+            <div class="menu-item">
+                <div>
+                    <h3>¼ Lb Burger</h3>
+                    <p>Cheese, chips &amp; salad</p>
+                </div>
+                <strong>£12.45</strong>
+            </div>
+
+
+            <div class="menu-item">
+                <div>
+                    <h3>½ Lb Burger</h3>
+                    <p>Cheese, chips &amp; salad</p>
+                </div>
+                <strong>£14.40</strong>
+            </div>
+
+
+            <div class="menu-item">
+                <div>
+                    <h3>Chicken Burger</h3>
+                    <p>Chicken, cheese, chips &amp; salad</p>
+                </div>
+                <strong>£12.45</strong>
+            </div>
+
+
+            <div class="menu-item">
+                <div>
+                    <h3>Halloumi Burger</h3>
+                    <p>Halloumi, chips &amp; salad</p>
+                </div>
+                <strong>£15.00</strong>
+            </div>
+
+
+            <div class="menu-item">
+                <div>
+                    <h3>Vegetarian Burger</h3>
+                    <p>Vegetarian burger with chips &amp; salad</p>
+                </div>
+                <strong>£12.45</strong>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- PANINIS -->
+
+    <div class="menu-category">
+
+        <div class="category-title">
+            <span>06</span>
+            <h2>Paninis</h2>
+        </div>
+
+
+        <div class="menu-items">
+
+            <div class="menu-item">
+                <div>
+                    <h3>Tuna &amp; Sweetcorn</h3>
+                </div>
+                <strong>£8.50</strong>
+            </div>
+
+
+            <div class="menu-item">
+                <div>
+                    <h3>Sausage &amp; Cheese</h3>
+                </div>
+                <strong>£8.50</strong>
+            </div>
+
+
+            <div class="menu-item">
+                <div>
+                    <h3>Chicken, Cheese &amp; Bacon</h3>
+                </div>
+                <strong>£10.50</strong>
+            </div>
+
+
+            <div class="menu-item">
+                <div>
+                    <h3>Chicken &amp; Cheese</h3>
+                </div>
+                <strong>£8.95</strong>
+            </div>
+
+
+            <div class="menu-item">
+                <div>
+                    <h3>Cheese, Tomato &amp; Pesto</h3>
+                </div>
+                <strong>£8.50</strong>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- DRINKS -->
+
+    <div class="menu-category">
+
+        <div class="category-title">
+            <span>07</span>
+            <h2>Milkshakes &amp; Smoothies</h2>
+        </div>
+
+
+        <div class="menu-items">
+
+            <div class="menu-item">
+                <div>
+                    <h3>Oreo Milkshake</h3>
+                </div>
+                <strong>£8.70</strong>
+            </div>
+
+
+            <div class="menu-item">
+                <div>
+                    <h3>Biscoff Milkshake</h3>
+                </div>
+                <strong>£8.70</strong>
+            </div>
+
+
+            <div class="menu-item">
+                <div>
+                    <h3>Chocolate Milkshake</h3>
+                </div>
+                <strong>£6.90</strong>
+            </div>
+
+
+            <div class="menu-item">
+                <div>
+                    <h3>Berry Go Smoothie</h3>
+                    <p>Strawberry, blackberry &amp; raspberry</p>
+                </div>
+                <strong>£6.90</strong>
+            </div>
+
+
+            <div class="menu-item">
+                <div>
+                    <h3>Green Machine</h3>
+                    <p>Kale, spinach &amp; mango</p>
+                </div>
+                <strong>£6.90</strong>
+            </div>
+
+
+            <div class="menu-item">
+                <div>
+                    <h3>Coco Loco</h3>
+                    <p>Mango, pineapple, coconut, mint &amp; lime</p>
+                </div>
+                <strong>£6.90</strong>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="menu-note">
+        <strong>More to discover</strong>
+        <p>
+            Ask in the café about the full selection of
+            salads, pasta, seafood, jacket potatoes,
+            children's meals, desserts and hot drinks.
+        </p>
+    </div>
+
+
+</section>
+
+</main>
+
+
+<footer>
+
+    <div class="footer-main">
+
+        <div class="footer-brand">
+
+            <div class="logo footer-logo">
+                <span>CAFÉ</span>
+                <strong>1</strong>
+                <span>BISTRO</span>
+            </div>
+
+            <p>
+                Breakfast, brunch, lunch &amp; more
+                in the heart of Epsom.
+            </p>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <h4>Explore</h4>
+
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#visit">Visit</a>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <h4>Connect</h4>
+
+            <a href="https://www.instagram.com/cafeonebistro/" target="_blank">
+                Instagram ↗
+            </a>
+
+            <a href="tel:01372739996">
+                01372 739996
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+        <span>© 2026 Café 1 Bistro</span>
+        <span>122 High Street, Epsom</span>
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

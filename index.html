@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Café 1 Bistro | Epsom</title>
+    <meta name="description" content="Café 1 Bistro in Epsom. Breakfast, brunch, lunch, coffee and more at 122 High Street.">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="navbar">
+    <a href="index.html" class="logo">
+        <span>CAFÉ</span>
+        <strong>1</strong>
+        <span>BISTRO</span>
+    </a>
+
+    <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="#about">About</a>
+        <a href="#visit">Visit</a>
+    </nav>
+
+    <a href="menu.html" class="nav-button">View Menu</a>
+
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+</header>
+
+
+<main>
+
+    <!-- INTRO -->
+
+    <section class="intro">
+
+        <div class="intro-text">
+
+            <div class="eyebrow">
+                <span></span>
+                Epsom High Street
+            </div>
+
+            <h1>
+                Good food.<br>
+                <em>Good company.</em>
+            </h1>
+
+            <p>
+                Welcome to Café 1 Bistro — a relaxed local spot
+                for breakfast, brunch, lunch, coffee and everything
+                in between.
+            </p>
+
+            <div class="intro-buttons">
+                <a href="menu.html" class="button primary">
+                    Explore our menu
+                </a>
+
+                <a href="#visit" class="button secondary">
+                    Find us
+                </a>
+            </div>
+
+        </div>
+
+
+        <div class="intro-collage">
+
+            <div class="photo-card photo-main">
+                <img src="images/breakfast.jpg" alt="Breakfast at Café 1 Bistro">
+            </div>
+
+            <div class="photo-card photo-small">
+                <img src="images/coffee.jpg" alt="Coffee at Café 1 Bistro">
+            </div>
+
+            <div class="circle-label">
+                <span>EST.</span>
+                <strong>EPSOM</strong>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- QUICK INFO -->
+
+    <section class="quick-info">
+
+        <div>
+            <span class="info-number">01</span>
+            <div>
+                <h3>Breakfast</h3>
+                <p>All-day favourites &amp; brunch</p>
+            </div>
+        </div>
+
+        <div>
+            <span class="info-number">02</span>
+            <div>
+                <h3>Lunch</h3>
+                <p>Fresh, filling &amp; made to order</p>
+            </div>
+        </div>
+
+        <div>
+            <span class="info-number">03</span>
+            <div>
+                <h3>Drinks</h3>
+                <p>Coffee, smoothies &amp; shakes</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- POPULAR -->
+
+    <section class="popular">
+
+        <div class="section-heading">
+            <div>
+                <span class="eyebrow">A taste of Café 1</span>
+                <h2>Something for<br><em>everyone.</em></h2>
+            </div>
+
+            <a href="menu.html" class="text-link">
+                See full menu →
+            </a>
+        </div>
+
+
+        <div class="food-grid">
+
+            <article class="food-card large">
+                <img src="images/breakfast.jpg" alt="All day breakfast">
+
+                <div class="food-card-content">
+                    <span>BREAKFAST</span>
+                    <h3>All-Day Breakfast</h3>
+                    <p>
+                        From classic breakfasts to avocado,
+                        eggs and vegetarian favourites.
+                    </p>
+                </div>
+            </article>
+
+
+            <article class="food-card">
+                <img src="images/pancakes.jpg" alt="Pancakes">
+
+                <div class="food-card-content">
+                    <span>BRUNCH</span>
+                    <h3>Homemade Pancakes</h3>
+                    <p>
+                        Sweet stacks with fruit, maple syrup
+                        and plenty of choice.
+                    </p>
+                </div>
+            </article>
+
+
+            <article class="food-card">
+                <img src="images/burger.jpg" alt="Burger">
+
+                <div class="food-card-content">
+                    <span>LUNCH</span>
+                    <h3>Burgers &amp; Grills</h3>
+                    <p>
+                        Properly filling favourites served
+                        with chips and salad.
+                    </p>
+                </div>
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+
+    <section class="about" id="about">
+
+        <div class="about-image">
+            <img src="images/cafe.jpg" alt="Café 1 Bistro">
+        </div>
+
+        <div class="about-text">
+
+            <span class="eyebrow">Welcome to Café 1</span>
+
+            <h2>Your local place<br><em>to eat &amp; unwind.</em></h2>
+
+            <p>
+                Right in the heart of Epsom High Street, Café 1 Bistro
+                brings together breakfast, brunch, lunch and drinks
+                in one relaxed spot.
+            </p>
+
+            <p>
+                Whether you're grabbing breakfast, meeting friends
+                for lunch or just stopping for a coffee, there's
+                plenty to choose from.
+            </p>
+
+            <a href="menu.html" class="button primary">
+                Explore the menu
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- MENU TEASER -->
+
+    <section class="menu-teaser">
+
+        <div class="menu-teaser-top">
+            <div>
+                <span class="eyebrow">What's cooking?</span>
+                <h2>Our favourites</h2>
+            </div>
+
+            <a href="menu.html" class="text-link">
+                Full menu →
+            </a>
+        </div>
+
+
+        <div class="menu-list">
+
+            <div class="menu-row">
+                <div>
+                    <h3>Café 1 Special</h3>
+                    <p>
+                        Eggs, avocado, halloumi, hash brown,
+                        tomatoes, beans &amp; mushrooms
+                    </p>
+                </div>
+
+                <strong>£17.45</strong>
+            </div>
+
+
+            <div class="menu-row">
+                <div>
+                    <h3>Eggs Benedict</h3>
+                    <p>
+                        Poached eggs, English muffins,
+                        bacon or ham &amp; hollandaise
+                    </p>
+                </div>
+
+                <strong>£16.20</strong>
+            </div>
+
+
+            <div class="menu-row">
+                <div>
+                    <h3>Chicken Burger</h3>
+                    <p>
+                        Chicken burger with cheese,
+                        chips &amp; salad
+                    </p>
+                </div>
+
+                <strong>£12.45</strong>
+            </div>
+
+
+            <div class="menu-row">
+                <div>
+                    <h3>Blueberry Pancakes</h3>
+                    <p>
+                        Blueberries, banana, maple syrup
+                        &amp; side fruit
+                    </p>
+                </div>
+
+                <strong>£14.95</strong>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- VISIT -->
+
+    <section class="visit" id="visit">
+
+        <div class="visit-content">
+
+            <span class="eyebrow">Come and see us</span>
+
+            <h2>Find us in<br><em>the heart of Epsom.</em></h2>
+
+            <p>
+                122 High Street<br>
+                Epsom, Surrey<br>
+                KT19 8BJ
+            </p>
+
+            <div class="visit-buttons">
+
+                <a
+                    href="https://www.google.com/maps/search/?api=1&query=Cafe1+Bistro%2C+122+High+Street%2C+Epsom+KT19+8BJ"
+                    target="_blank"
+                    class="button primary"
+                >
+                    Open in Maps
+                </a>
+
+                <a
+                    href="tel:01372739996"
+                    class="button secondary"
+                >
+                    01372 739996
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="hours">
+
+            <h3>Opening hours</h3>
+
+            <div class="hours-row">
+                <span>Monday</span>
+                <strong>7:00 – 16:30</strong>
+            </div>
+
+            <div class="hours-row">
+                <span>Tuesday</span>
+                <strong>7:00 – 16:30</strong>
+            </div>
+
+            <div class="hours-row">
+                <span>Wednesday</span>
+                <strong>7:00 – 16:30</strong>
+            </div>
+
+            <div class="hours-row">
+                <span>Thursday</span>
+                <strong>7:00 – 16:30</strong>
+            </div>
+
+            <div class="hours-row">
+                <span>Friday</span>
+                <strong>7:00 – 16:30</strong>
+            </div>
+
+            <div class="hours-row">
+                <span>Saturday</span>
+                <strong>7:00 – 16:30</strong>
+            </div>
+
+            <div class="hours-row">
+                <span>Sunday</span>
+                <strong>8:00 – 16:30</strong>
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <div class="footer-main">
+
+        <div class="footer-brand">
+            <div class="logo footer-logo">
+                <span>CAFÉ</span>
+                <strong>1</strong>
+                <span>BISTRO</span>
+            </div>
+
+            <p>
+                Breakfast, brunch, lunch &amp; more
+                in the heart of Epsom.
+            </p>
+        </div>
+
+
+        <div class="footer-links">
+
+            <h4>Explore</h4>
+
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="#about">About</a>
+            <a href="#visit">Visit</a>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <h4>Connect</h4>
+
+            <a
+                href="https://www.instagram.com/cafeonebistro/"
+                target="_blank"
+            >
+                Instagram ↗
+            </a>
+
+            <a href="tel:01372739996">
+                01372 739996
+            </a>
+
+            <a
+                href="https://www.google.com/maps/search/?api=1&query=Cafe1+Bistro%2C+122+High+Street%2C+Epsom+KT19+8BJ"
+                target="_blank"
+            >
+                Google Maps ↗
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+        <span>© 2026 Café 1 Bistro</span>
+        <span>122 High Street, Epsom</span>
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
